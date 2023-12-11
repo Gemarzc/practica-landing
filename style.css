@@ -18,13 +18,13 @@ body {
 header {
   border: 1px dashed black;
   position: fixed;
-  background-color: violet;
   width: 100%;
 }
 
 .sidebar {
   position: absolute;
   left: 75pc;
+  top: 10pc;
   border: 1px dashed black;
 }
 
@@ -38,11 +38,16 @@ header {
   text-align: center;
   position: relative;
   border: 1px dashed black;
-  top: 10pc;
+  top: 16pc;
+}
+
+.feature {
+  padding-bottom: 10px;
 }
 
 footer {
   border: 1px dashed black;
-  position: absolute;
+  top: 20pc;
+  position: relative;
   text-align: center;
 }
