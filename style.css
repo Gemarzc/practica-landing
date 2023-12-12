@@ -19,6 +19,7 @@ header {
   border: 1px dashed black;
   position: fixed;
   width: 100%;
+  padding-bottom: 8px;
 }
 
 .sidebar {
@@ -26,11 +27,13 @@ header {
   left: 75pc;
   top: 10pc;
   border: 1px dashed black;
+  padding: 10px;
 }
 
 .content {
   position: relative;
-  top: 60px;
+  top: 65px;
+  padding-bottom: 10px;
   border: 1px dashed black;
 }
 
@@ -50,4 +53,6 @@ footer {
   top: 20pc;
   position: relative;
   text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
